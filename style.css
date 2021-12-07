@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +7,11 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #fff8e8;
 }
 
 header{
-    background-color: blueviolet;
+    background-color: #FCD581;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -22,7 +24,7 @@ section{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    background-color:cadetblue;
+    flex-direction: column;
 }
 .wrap_border{
     width: auto;
@@ -30,7 +32,6 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cornflowerblue;
 }
 
 .inputs{
@@ -38,7 +39,6 @@ section{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: khaki;
 }
 
 .place{
@@ -48,12 +48,17 @@ section{
 .border{
     width: 40vh;
     height: 40vh;
-    background-color: brown;
+    background-color: #D52941;
     border-radius: 50% 50% 50% 20%;
 }
 
-.board{
-    width: 30vh;
-    height: 25vh;
-    background-color: coral;
+#board{
+    width: 40vh;
+    height: 10vh;
+    background-color: #990D35;
+    color: #fff8e8 ;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
 }
